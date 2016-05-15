@@ -67,7 +67,7 @@ public class FileTransfer extends JFrame implements ActionListener{
 	     }
 	}
 
-	public void actionPerformed(ActionEvent e)
+	public void ActionPerformed(ActionEvent e)
 	{
 			if(e.GetSource()==Jb1)
 			  {
@@ -78,7 +78,6 @@ public class FileTransfer extends JFrame implements ActionListener{
 			s1=f1.getName();
 			tf.setText(Path +"||"+s1);
 	}
-
 	  if(e.getSource() ==Jb2)
 	   {
 	  	try{
@@ -93,6 +92,7 @@ public class FileTransfer extends JFrame implements ActionListener{
 	  	}
 	  	fileTransfer(s1);
 	  }
+
 	  public static void main(String k[])
 	  {
 	  	FileTransfer ft =new FileTransfer();

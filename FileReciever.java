@@ -8,7 +8,7 @@ public class fileReciever{
 	ServerSocket ss;
 	DataInputStream dis,dis1;
 	PrintWriter pw;
-	publicFileReciever()
+	public FileReciever()
 	{
 	 try {
 	    ss=newServerSocket(10);
